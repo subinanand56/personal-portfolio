@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import {ProjectCard} from "./ProjectCards"
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/Netflix.png";
+import projImg2 from "../assets/img/portfolio.png";
+import projImg3 from "../assets/img/portfolio bootstrap.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
@@ -10,34 +10,20 @@ export const Projects = () => {
   const projects = [
     {
       title: "Netflix Clone",
-      description: "React js",
+      description: "React js & Firebase &TMDB",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Personal Portfolio",
+      description: "Reactjs",
       imgUrl: projImg2,
     },
     {
-      title: "Car Rental System",
-      description: "Design & Development",
+      title: "Bootstrap Portfolio",
+      description: "Bootstrap & Responsive",
       imgUrl: projImg3,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    
   ];
 
   return (
