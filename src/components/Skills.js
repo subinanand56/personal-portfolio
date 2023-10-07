@@ -9,7 +9,6 @@ import meter5 from "../assets/img/html.svg";
 import meter6 from "../assets/img/css.svg";
 import meter7 from "../assets/img/javascript-.svg";
 import meter8 from "../assets/img/bootstrap.svg";
-import meter9 from "../assets/img/css.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {

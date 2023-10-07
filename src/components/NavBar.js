@@ -49,10 +49,9 @@ export const NavBar =()=> {
             <div className="social-icon">
             <a href="https://www.linkedin.com/in/subin-anand-65a682240" ><img src={navIcon1} alt="" /></a>
             <a href="https://github.com/subinanand56" ><img src={navIcon2} alt="" /></a>
-            <a href="#" ><img src={navIcon3} alt="" /></a>
+            <a href="https://www.instagram.com/subin__anand/" ><img src={navIcon3} alt="" /></a>
 
             </div>
-           {/* <a href={resume}> <button  onClick={() => console.log('connect')}><span>Resume</span></button></a> */}
           </span>
         </Navbar.Collapse>
       </Container>

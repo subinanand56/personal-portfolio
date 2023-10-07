@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Tab, Nav, Card } from "react-bootstrap"; // Import React Bootstrap components
+import { Container, Row, Col, Tab, Nav, Card } from "react-bootstrap";
 
 import projImg1 from "../assets/img/Netflix.png";
 import projImg2 from "../assets/img/portfolio.png";
@@ -11,19 +11,19 @@ export const Projects = () => {
       title: "Netflix Clone",
       description: "React js & Firebase & TMDB",
       imgUrl: projImg1,
-      gitUrl: "https://github.com/subinanand56/portfolio", 
+      gitUrl: "https://github.com/subinanand56/client", 
     },
     {
       title: "Personal Portfolio",
       description: "React & Animate Css ",
       imgUrl: projImg2,
-      gitUrl: "https://github.com/subinanand56/portfolio", 
+      gitUrl: "https://github.com/subinanand56/personal-portfolio", 
     },
     {
       title: "Bootstrap Portfolio",
       description: "Bootstrap & Responsive",
       imgUrl: projImg3,
-      gitUrl: "https://github.com/your-username/bootstrap-portfolio", 
+      gitUrl: "https://subtle-creponne-a3e4b2.netlify.app/", 
     },
   ];
 
