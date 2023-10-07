@@ -1,15 +1,16 @@
 import { Container,Row ,Col  } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
+
 import headerImg from "../assets/img/header-img.png";
 import { useState, useEffect } from "react";
 import'animate.css';
 import TrackVisibility from "react-on-screen";
+import resume from '../assets/img/r.pdf';
 
 
 export const Banner = () => {
     const [loopNum,setloopNum] = useState(0);
     const [isDeleting,setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer ", "Web Designer" ," Mern Stack Developer"];
+    const toRotate = ["Web Developer ", "Mern Stack Developer" ,];
     const [text , setText]=useState('');
     const [delta , setDelta ] = useState(300 - Math.random() * 100);
     const period =2000;
@@ -58,7 +59,9 @@ export const Banner = () => {
                     </span>
                     <h1>{`Hi I'm Subin `}<span className="wrap">{text}</span></h1>
                     <p>An enthusiastic fresher with highly motivated and leadership skills having bachelors of engineering degree in information Science and Engineering.</p>
-                    <a href="mailto:subinanand8078@gmail.com"> <button onClick={()=> console.log('connect')}>Let's connect<ArrowRightCircle size={25} /> </button></a> 
+                    <a  href="mailto:subinanand8078@gmail.com"> <button  onClick={() => console.log('connect')}><span>Contact me</span></button></a>
+                    <a href={resume}> <button  onClick={() => console.log('connect')}><span>Resume</span></button></a>
+                    
                 </div> }
                 </TrackVisibility>
                 </Col>
