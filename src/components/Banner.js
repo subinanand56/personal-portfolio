@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.png";
 import { useState, useEffect } from "react";
 import'animate.css';
 import TrackVisibility from "react-on-screen";
-import resume from '../assets/img/s.pdf';
+import resume from '../assets/img/ss.pdf';
 
 
 export const Banner = () => {
